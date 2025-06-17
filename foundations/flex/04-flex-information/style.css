@@ -1,5 +1,17 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+  gap: 52px;
+}
+
+.media-object {
+  max-width: 200px;
 }
 
 img {
